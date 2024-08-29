@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #01080E;
+}
+
+.containerIA{
+    display: flex;
+    flex-direction: column;
+    background-color: #0B0D20;
+    border-radius: 20px;
+    padding: 28px;
+    width: 500px;
+}
+
+.containerIA > h1{
+    color: #2BDEFD
+}
+
+.containerIA > p{
+    color: #e4e4e4;
+}
+
+/* buttons */
+.containerButtonsIA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px;
+}
+
+.buttonOne, .buttonTwo, .buttonTree{
+    padding: 10px;
+    border-radius: 10px;
+    color: #e4e4e4;
+    background-color: #212333;
+    width: 100%;
+}
